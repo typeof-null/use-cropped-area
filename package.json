@@ -4,7 +4,7 @@
   "name": "example-of-use-cropped-area",
   "email": "mikhail.vasilev17@gmail.com",
   "author": "Mikhail Vasilev (typeof-null)",
-  "description": "example of use-cropped-area",
+  "description": "Example of use-cropped-area",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir docs --public-url .",
