@@ -1,12 +1,15 @@
 {
-  "name": "use-cropped-area",
-  "version": "0.2.0",
-  "description": "use cropped area react package",
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
-  "types": "./dist/esm/index.d.ts",
+  "private": true,
+  "version": "0.1.0",
+  "name": "example-of-use-cropped-area",
   "email": "mikhail.vasilev17@gmail.com",
   "author": "Mikhail Vasilev (typeof-null)",
+  "description": "example of use-cropped-area",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir docs --public-url .",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\""
+  },
   "license": "MIT",
   "keywords": [
     "react",
@@ -15,13 +18,19 @@
     "hook",
     "image",
     "canvas",
+    "expamle",
+    "cropper",
     "use crop",
     "use area",
+    "image crop",
     "typescript",
+    "use cropped",
     "create image",
+    "cropped area",
     "part of image",
     "cropped image",
     "create canvas",
+    "use image crop",
     "use cropped area",
     "use part of image",
     "area with cordinates",
@@ -29,46 +38,23 @@
     "create image from cropped area, react",
     "create image with specific coordinates"
   ],
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/typeof-null/use-cropped-area.git"
-  },
-  "scripts": {
-    "build": "yarn build:esm && yarn build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run prettier && npm run lint",
-    "test": "jest --config jestconfig.json",
-    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\""
-  },
-  "peerDependencies": {
-    "react": ">=16"
-  },
   "devDependencies": {
-    "jest": "^29.4.1",
-    "eslint": "^8.33.0",
+    "parcel": "^2.8.3",
     "react": "^18.2.0",
-    "ts-jest": "^29.0.5",
-    "prettier": "^2.8.3",
-    "typescript": "^4.9.5",
+    "eslint": "^8.18.0",
+    "process": "^0.11.10",
     "react-dom": "^18.2.0",
-    "@types/jest": "^29.4.0",
     "@types/react": "^18.0.27",
-    "jest-canvas-mock": "^2.4.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "jest-environment-jsdom": "^29.4.1",
-    "@testing-library/react": "^13.4.0",
+    "use-cropped-area": "^0.1.0",
+    "@types/react-dom": "^18.0.10",
+    "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "@typescript-eslint/parser": "^5.50.0",
-    "@typescript-eslint/eslint-plugin": "^5.50.0"
+    "@typescript-eslint/parser": "^5.29.0",
+    "typescript-plugin-css-modules": "^4.1.1",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "@typescript-eslint/eslint-plugin": "^5.29.0"
+  },
+  "dependencies": {
+    "react-syntax-highlighter": "^15.5.0"
   }
 }
