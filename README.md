@@ -1,11 +1,11 @@
-# How to start example page?
+# Easy start demo
 
-Then in the example directory, run all dependencies:
+Install dependencies:
 
 ### `yarn install`
 
-Then use the command:
+Run project:
 
 ### `yarn start`
 
-Open [http://localhost:1234](http://localhost:1234) to view it in the browser.
+Open [http://localhost:1234](http://localhost:1234) in the browser.
