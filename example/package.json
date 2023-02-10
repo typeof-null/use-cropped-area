@@ -1,14 +1,18 @@
 {
   "private": true,
   "version": "0.1.0",
-  "name": "example-of-use-cropped-area",
+  "name": "demo-of-use-cropped-area",
   "email": "mikhail.vasilev17@gmail.com",
-  "author": "Mikhail Vasilev (typeof-null)",
-  "description": "example of use-cropped-area",
+  "author": "typeof-null",
+  "description": "demo of use-cropped-area",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir docs --public-url .",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typeof-null/use-cropped-area.git"
   },
   "license": "MIT",
   "keywords": [
