@@ -1,5 +1,6 @@
 dist
 .idea
+.husky
 yarn.lock
 node_modules
 .parcel-cache
