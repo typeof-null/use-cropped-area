@@ -1,6 +1,6 @@
 {
   "name": "use-cropped-area",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "use-cropped-area is a react hook for creating canvas image from the cropped area of image.",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

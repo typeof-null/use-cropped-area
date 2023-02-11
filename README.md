@@ -81,7 +81,7 @@ function Example() {
 ## Contact
 [**LI**](https://www.linkedin.com/in/mikhail-vasilev-frontend/)
 
-[**GMAIL**](https://mail.google.com/mail/?view=cm&fs=1&to=mikhail.vasilev17@gmail.com&su=npm-package&body=Hello,)
+[**EMAIL**](https://mail.google.com/mail/?view=cm&fs=1&to=mikhail.vasilev17@gmail.com&su=npm-package&body=Hello,)
 
 [npm-url]: https://www.npmjs.com/package/use-cropped-area
 [npm-image]: https://img.shields.io/npm/v/use-cropped-area
