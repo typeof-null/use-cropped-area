@@ -1,13 +1,16 @@
 # `use-cropped-area`
 
 [![NPM version][npm-image]][npm-url]
-![npm-typescript]
+[![npm-typescript]][npm-typescript-url]
+[![Test][github-test]][github-test-url]
 [![Build][github-build]][github-build-url]
 [![License][github-license]][github-license-url]
 
 use-cropped-area is a `react` hook for creating canvas image from the cropped area of image.
 
-**Live Creativity Demo**[https://typeof-null.github.io/use-cropped-area/]
+<img src="./img.png" style="border: 2px solid #FED500; border-radius: 10px">
+
+[**Live Creativity Demo**](https://typeof-null.github.io/use-cropped-area/)
 
 
 ## Installation
@@ -72,10 +75,15 @@ function Example() {
 |  drawing | Control of drawing the canvas element  |                             boolean | optional |     true     |
 
 
+## License
+
+[MIT](LICENSE)
+
 [npm-url]: https://www.npmjs.com/package/use-cropped-area
 [npm-image]: https://img.shields.io/npm/v/use-cropped-area
 [github-license]: https://img.shields.io/github/license/typeof-null/use-cropped-area
 [github-license-url]: https://github.com/typeof-null/use-cropped-area/blob/master/LICENSE
 [npm-typescript]: https://img.shields.io/npm/types/use-cropped-area
+[npm-typescript-url]: https://www.typescriptlang.org/
 [github-build]: https://github.com/typeof-null/use-cropped-area/actions/workflows/publish.yml/badge.svg
 [github-build-url]: https://github.com/typeof-null/use-cropped-area/actions/workflows/publish.yml
