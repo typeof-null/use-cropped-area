@@ -19,13 +19,6 @@ export const INITIAL_MEAS = {
   rotate: 0,
 } as const
 
-export const AREA = {
-  X: 'x',
-  Y: 'y',
-  width: 'width',
-  height: 'height',
-} as const
-
 export const MEAS = {
   SCALE: 'scale',
   ZOOM: 'zoom',
@@ -39,7 +32,7 @@ export const CODE = {
       const [meas, setMeas] = useState<Measurement>(INITIAL_MEASUREMENT)
     
       const image = useRef<HTMLImageElement | null>(null)
-      const ref = useCroppedArea({ area, image: image.current!, drawing: visible })
+      const ref = useCroppedArea({ area, image: image.current, drawing: visible })
     
       // delayed drawing cropped area in the canvas
       useEffect(() => {

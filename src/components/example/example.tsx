@@ -1,14 +1,14 @@
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/esm/styles/prism'
 import React, { useRef, useState, useEffect } from 'react'
-import { useCroppedArea } from 'use-cropped-area'
+import useCroppedArea, { Area, AreaKey } from 'use-cropped-area'
 import Content, { ContentPart, SubContent } from '../content'
 import { TabContent } from '../tabs/components'
 import Details from '../details'
 import Tabs from '../tabs'
 import { OriginalTools, ImageWithCrop, CroppedArea, CroppedTools } from './components'
 import { CODE, INITIAL_AREA, INITIAL_MEAS, TABS } from './constants'
-import { Area, AreaKey, Meas, MeasKey } from './types'
+import { Meas, MeasKey } from './types'
 
 function Example() {
   const [chosen, setChosen] = useState('')
@@ -17,10 +17,9 @@ function Example() {
   const [visible, setVisible] = useState(false)
 
   const image = useRef<HTMLImageElement | null>(null)
-  const ref = useCroppedArea({ area: area!, image: image.current!, visible })
+  const ref = useCroppedArea({ area, image: image.current, drawing: visible })
 
   // delayed drawing cropped area in the canvas
-  // for first render
   useEffect(() => {
     setTimeout(() => {
       setVisible(true)
