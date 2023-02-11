@@ -6,7 +6,7 @@ import { CroppedArea } from './types'
  *
  * The hook is drawing canvas from the cropped area of image.
  *
- * - [Examples](https://typeof-null.github.io/use-cropped-area)
+ * - [Example](https://typeof-null.github.io/use-cropped-area)
  *
  * - [API](https://www.npmjs.com/package/use-cropped-area#api)
  *
