@@ -2,13 +2,12 @@
 
 [![NPM version][npm-image]][npm-url]
 [![npm-typescript]][npm-typescript-url]
-[![Test][github-test]][github-test-url]
 [![Build][github-build]][github-build-url]
 [![License][github-license]][github-license-url]
 
 use-cropped-area is a `react` hook for creating canvas image from the cropped area of image.
 
-<img src="./img.png" style="border: 2px solid #FED500; border-radius: 10px">
+<img src="./img.png" style="border: 2px solid #FED500; border-radius: 10px" alt="view-example">
 
 [**Live Creativity Demo**](https://typeof-null.github.io/use-cropped-area/)
 
@@ -78,6 +77,11 @@ function Example() {
 ## License
 
 [MIT](LICENSE)
+
+## Contact
+[**LI**](https://www.linkedin.com/in/mikhail-vasilev-frontend/)
+
+[**GMAIL**](https://mail.google.com/mail/?view=cm&fs=1&to=mikhail.vasilev17@gmail.com&su=npm-package&body=Hello,)
 
 [npm-url]: https://www.npmjs.com/package/use-cropped-area
 [npm-image]: https://img.shields.io/npm/v/use-cropped-area
