@@ -2,11 +2,12 @@
 
 [![NPM version][npm-image]][npm-url]
 ![npm-typescript]
+[![Build][github-build]][github-build-url]
 [![License][github-license]][github-license-url]
 
 use-cropped-area is a `react` hook for creating canvas image from the cropped area of image.
 
-**Live Demo** - _in progress_
+**Live Creativity Demo**[https://typeof-null.github.io/use-cropped-area/]
 
 
 ## Installation
@@ -25,7 +26,7 @@ yarn add -D use-cropped-area
 ## Usage
 
 ```js
-import React, { useRef, useMemo, useState, useEffect } from 'react'
+import React, { useRef, useMemo, useState } from 'react'
 import useCroppedArea, { Area, AreaKey } from 'use-cropped-area'
 import { INITIAL_AREA, CANVAS_STYLES } from './constants'
 
@@ -76,3 +77,5 @@ function Example() {
 [github-license]: https://img.shields.io/github/license/typeof-null/use-cropped-area
 [github-license-url]: https://github.com/typeof-null/use-cropped-area/blob/master/LICENSE
 [npm-typescript]: https://img.shields.io/npm/types/use-cropped-area
+[github-build]: https://github.com/typeof-null/use-cropped-area/actions/workflows/publish.yml/badge.svg
+[github-build-url]: https://github.com/typeof-null/use-cropped-area/actions/workflows/publish.yml

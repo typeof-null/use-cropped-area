@@ -1,5 +1,5 @@
-node_modules
-.idea
 dist
-yarn-error.log
+.idea
 .DS_Store
+node_modules
+yarn-error.log
